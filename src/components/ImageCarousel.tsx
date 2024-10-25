@@ -7,7 +7,7 @@ interface CarouselImage {
 
 const images: CarouselImage[] = [
   {
-    url: "https://www.instagram.com/p/CSfkQAOrauz/?img_index=1",
+    url: "https://scontent-mad1-1.cdninstagram.com/v/t51.29350-15/235561472_424028262255930_198704740638213271_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDc4eDEwNzcuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=Q5q7EY7bnaAQ7kNvgFOzuq6&_nc_gid=23d4f120fd874d649d677a5681cd484a&edm=AP4sbd4BAAAA&ccb=7-5&ig_cache_key=MjYzODk4NzMzMjc3Mjk0NjI5Ng%3D%3D.3-ccb7-5&oh=00_AYCEmUVv0EmViSZthidZQ-SI_kN0sJz8xPbwxapi_tR2gQ&oe=6721EA1D&_nc_sid=7a9f4b",
     alt: "Assorted pastries"
   },
   {
