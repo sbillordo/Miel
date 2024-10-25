@@ -7,7 +7,7 @@ interface CarouselImage {
 
 const images: CarouselImage[] = [
   {
-    url: "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    url: "https://www.instagram.com/p/CSfkQAOrauz/?img_index=1",
     alt: "Assorted pastries"
   },
   {
