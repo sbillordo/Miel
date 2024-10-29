@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { ChefHat, Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,8 +81,11 @@ const Navigation: React.FC = () => {
           </div>
         </div>
       </div>
+      <Link to="/">Inicio</Link>
+      <Link to="/productos">Productos</Link>
     </nav>
   );
 };
+
 
 export default Navigation;

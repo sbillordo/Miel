@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChefHat, Phone, Mail, Instagram, MapPin, ShoppingBag, Menu, X } from 'lucide-react';
+
 import Hero from './components/Hero';
 
 const App: React.FC = () => {
@@ -49,6 +50,8 @@ const App: React.FC = () => {
               <a href="#about" className="text-rose-900 hover:text-rose-600 transition">Sobre Mi</a>
               <a href="#products" className="text-rose-900 hover:text-rose-600 transition">Mis Creaciones</a>
               <a href="#contact" className="text-rose-900 hover:text-rose-600 transition">Contactame</a>
+              {/* Enlace a ProductList.html */}
+              <a href="ProductList.html" className="text-rose-900 hover:text-rose-600 transition">Lista de Productos</a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -92,6 +95,14 @@ const App: React.FC = () => {
               >
                 Contactame
               </a>
+              {/* Enlace a ProductList.html */}
+              <a 
+                href="ProductList.html" 
+                className="text-xl text-rose-900 hover:text-rose-600 transition"
+                onClick={() => document.body.classList.remove('mobile-menu-open')}
+              >
+                Lista de Productos
+              </a>
             </div>
           </div>
         </div>
@@ -121,7 +132,14 @@ const App: React.FC = () => {
               </p>
               <p className="text-rose-700 leading-relaxed">
                 Desde 2023 me desempeño de manera independiente llevando adelante trabajos por encargo sumamente perzonalisados.
-              </p>              
+              </p>
+              {/* Botón para ir a ProductList */}
+              <a 
+                href="ProductList.html" 
+                className="mt-4 inline-block bg-rose-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-rose-600 transition-all hover:scale-105"
+              >
+                Ver Lista de Productos
+              </a>
             </div>
           </div>
         </div>
@@ -209,5 +227,7 @@ const App: React.FC = () => {
     </div>
   );
 };
+
+
 
 export default App;
